@@ -2,10 +2,7 @@
 const axios = require('axios');
 
 exports.handler = function (event, context, callback) {
-    //const passage = event.queryStringParameters.passage;
-    //console.log(passage)
-    //const url = `http://65.52.59.51:48000/Dev01`;
-    const url = `https://pokeapi.co/api/v2/pokemon/ditto`;
+    const url = `http://65.52.59.51:48000/Dev01`;
     axios.get(url)
         .then(
             json => {
