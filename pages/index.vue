@@ -16,7 +16,6 @@
         <li>GPM_Case_Drain: {{ data.Dev01_GPM_Case_Drain }}</li>
         <li>PSI_Aux: {{ data.Dev01_PSI_Aux }}</li>
         <li>Motor_Load: {{ data.Dev01_Motor_Load }}</li>
-        <li>IP_Address{{ data.Dev01_IP_Address }}</li>
       </ul>
     </div>
   </div>
