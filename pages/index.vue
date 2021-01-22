@@ -1,29 +1,23 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
       <h1 class="title">
         NodeRed
       </h1>
-      <h2>{{ data.Dev01_DeviceID }}</h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <ul>
+        <li>DeviceID: {{ data.Dev01_DeviceID }}</li>
+        <li>Random: {{ data.Dev01_Random }}</li>
+        <li>PSI_Open_Loop: {{ data.Dev01_PSI_Open_Loop }}</li>
+        <li>PSI_A_Port: {{ data.Dev01_PSI_A_Port }}</li>
+        <li>PSI_B_Port: {{ data.Dev01_PSI_B_Port }}</li>
+        <li>PSI_Charge: {{ data.Dev01_PSI_Charge }}</li>
+        <li>GPM_Open_Loop: {{ data.Dev01_GPM_Open_Loop }}</li>
+        <li>GPM_Closed_Loop: {{ data.Dev01_GPM_Closed_Loop }}</li>
+        <li>GPM_Case_Drain: {{ data.Dev01_GPM_Case_Drain }}</li>
+        <li>PSI_Aux: {{ data.Dev01_PSI_Aux }}</li>
+        <li>Motor_Load: {{ data.Dev01_Motor_Load }}</li>
+        <li>IP_Address{{ data.Dev01_IP_Address }}</li>
+      </ul>
     </div>
   </div>
 </template>
